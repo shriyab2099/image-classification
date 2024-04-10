@@ -2,6 +2,11 @@
 
 This project aims to classify natural scene images into six categories: buildings, forest, glacier, mountain, sea, and street. The dataset comprises around 25,000 images of size 150x150, divided into training, testing, and prediction sets. The training set contains approximately 14,000 images, the testing set contains 3,000 images, and the prediction set contains 7,000 images.
 
+## Dataset
+
+The dataset used in this project is obtained from Kaggle. It contains a large collection of natural scene images categorized into different classes.
+[Kaggle Dataset Link](https://www.kaggle.com/puneet6060/intel-image-classification)
+
 ## Preprocessing
 All input images are resized to 150x150.
 
@@ -18,13 +23,13 @@ MobileNet is a lightweight deep learning model designed for mobile and embedded 
 It achieves high accuracy with significantly fewer parameters compared to traditional architectures, making it suitable for resource-constrained environments
 
 ## Methodology
-Data Preprocessing: The input images are preprocessed to enhance their quality and prepare them for feature extraction.
+### Data Preprocessing: The input images are preprocessed to enhance their quality and prepare them for feature extraction.
 
-Feature Extraction: Features are extracted from the preprocessed images using the selected deep learning models.
+### Feature Extraction: Features are extracted from the preprocessed images using the selected deep learning models.
 
-Model Training: The extracted features are used to train the classification models, including CNN, VGG16, and MobileNet.
+### Model Training: The extracted features are used to train the classification models, including CNN, VGG16, and MobileNet.
 
-Model Evaluation: The trained models are evaluated on a separate test dataset to measure their accuracy and effectiveness.
+### Model Evaluation: The trained models are evaluated on a separate test dataset to measure their accuracy and effectiveness.
 
-Model Integration: The outputs of the individual models are combined to leverage the strengths of each model and improve overall classification performance.
+### Model Integration: The outputs of the individual models are combined to leverage the strengths of each model and improve overall classification performance.
 
