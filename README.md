@@ -23,13 +23,13 @@ MobileNet is a lightweight deep learning model designed for mobile and embedded 
 It achieves high accuracy with significantly fewer parameters compared to traditional architectures, making it suitable for resource-constrained environments
 
 ## Methodology
-### Data Preprocessing: The input images are preprocessed to enhance their quality and prepare them for feature extraction.
+ Data Preprocessing: The input images are preprocessed to enhance their quality and prepare them for feature extraction.
 
-### Feature Extraction: Features are extracted from the preprocessed images using the selected deep learning models.
+ Feature Extraction: Features are extracted from the preprocessed images using the selected deep learning models.
 
-### Model Training: The extracted features are used to train the classification models, including CNN, VGG16, and MobileNet.
+ Model Training: The extracted features are used to train the classification models, including CNN, VGG16, and MobileNet.
 
-### Model Evaluation: The trained models are evaluated on a separate test dataset to measure their accuracy and effectiveness.
+ Model Evaluation: The trained models are evaluated on a separate test dataset to measure their accuracy and effectiveness.
 
-### Model Integration: The outputs of the individual models are combined to leverage the strengths of each model and improve overall classification performance.
+ Model Integration: The outputs of the individual models are combined to leverage the strengths of each model and improve overall classification performance.
 
